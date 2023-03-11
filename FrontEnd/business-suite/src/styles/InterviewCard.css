@@ -1,0 +1,64 @@
+
+#interview-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.interview-card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .interview-card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .interview-card-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .interview-card-body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .interview-card-body p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .interview-card-footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .interview-card-join-button {
+    background-color: #f0ad4e;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+  }
+  
+  .interview-card-join-button:hover {
+    background-color: #eea236;
+    
+  }
+  

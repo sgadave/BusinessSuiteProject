@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+
+.JobCardBody{
+    background-color: lightskyblue;
+    border-radius: 5px;
+    margin: 5px;
+    height: 25;
+    box-shadow: 1px 1px 5px;
+}
+
+.dataWidth{
+    width: 150px;
+    height: 40px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 20;
+    /* border: 2px solid black; */
+}
+
+.JobCardBody:active {
+    animation: cardClick 0.2s;
+}
+
+@keyframes cardClick {
+    5% {
+        transform: scale(98%);
+    }
+}

@@ -1,0 +1,109 @@
+.team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: 500px;
+  margin: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.team-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.team-card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.team-card h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.team-card p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.team-card .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.team-card .social-link {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #222;
+  margin: 0 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-card .social-link:hover {
+  transform: scale(1.1);
+  background-color: #333;
+}
+
+.team-card .social-link i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+
+
+
+.team-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.team-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.team-card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.team-card a {
+  font-size: 18px;
+  color: #0077b5;
+}

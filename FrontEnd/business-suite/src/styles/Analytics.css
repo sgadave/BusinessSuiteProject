@@ -1,0 +1,11 @@
+.webVisits{
+    border: 1px solid black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.analyticsPageBody{
+    display: flex;
+    justify-content: center;
+}

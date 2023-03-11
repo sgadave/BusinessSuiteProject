@@ -1,0 +1,73 @@
+.job-post {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .job-post__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .job-post__category {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .job-post__type {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .job-post__date {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .job-post__salary {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .job-post__city {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .job-post__education {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .job-post__description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .job-post__keywords {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .job-post__apply {
+    display: inline-block;
+    background-color: #1e88e5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .job-post__apply:hover {
+    background-color: #1565c0;
+  }
+  

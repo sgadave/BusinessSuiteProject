@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+
+.navbar {
+    position: relative;
+    align-items: center;
+    width: 100%;
+    display: inline-flex;
+    background-color: aliceblue;
+    /* grid-template-columns:6% 30% 50% 10%; */
+    box-shadow: 2px 3px 5px rgb(221, 217, 217);
+    z-index: 5;
+    /* border: 2px solid black; */
+}
+
+a{
+    text-decoration: none;
+}
+
+.homeBody {
+    position: relative;
+    align-items: center;
+    width: 50%;
+    display: inline-flex;
+    z-index: 5;
+    /* border: 2px solid black; */
+}
+
+.navButton {
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    font-family: 'Libre Baskerville', serif;
+    border: none;
+}
+
+.menuBody {
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    /* border: 2px solid black; */
+}
+
+.SignUp{
+    color: aliceblue;
+    height: 30px;
+    width: 100px;
+    margin-right: 30px;
+    background-color: rgb(18, 80, 224);;
+    font-family: 'Libre Baskerville', serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(135, 135, 130);
+}
+
+.SignUp:active {
+    animation: press 0.1s;
+}
+
+@keyframes press {
+    5% {
+        transform: scale(95%);
+    }
+}
+
+.navLinkBody {
+    position: relative;
+    display: flex;
+}
+
+.Submenu {
+    position: absolute;
+    top: 30px;
+    width: 140px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px gray;
+    z-index: 4;
+}
+
+
+
+.profileSubMenu{
+    position: absolute;
+    top: 30px;
+    padding: 5px;
+    width: 100px;
+    height: 80px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px gray;
+    z-index: 4;
+}
+
+.loggedProfileSubMenu{
+    top: 60px;
+}
+
+.homeButton {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 900;
+    color: rgb(8, 108, 171);
+    /* border: 2px solid black; */
+}
+
+.logoBody {
+    position: relative;
+    left: 1%;
+    height: 70px;
+    width: 80px;
+    /* border: 2px solid black; */
+}
+
+.logoImg {
+    height: 100%;
+    width: 100%;
+}
+
+.profileDiv{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    width: 120px;
+}
+
+.profileIconBody{
+    width: 50px;
+}

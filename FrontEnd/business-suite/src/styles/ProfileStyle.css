@@ -1,0 +1,33 @@
+.ProfileImage{
+    height: 150px;
+    width: 130px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.ProfileImageContainer{
+    height: 110px;
+    width: 100px;
+    border-radius: 55px ;
+    border: 2px solid black
+}
+
+.buttonWidth{
+    width: 100px;
+}
+
+.profileViewerBody{
+    display: flex;
+    align-items: center;
+}
+
+.userDataViewer{
+    border-width: 0px 0px 2px 0px;
+    background-color: aliceblue;
+    text-align: center;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 170px;
+    outline: none;
+}
