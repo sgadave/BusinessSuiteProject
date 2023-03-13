@@ -1,3 +1,4 @@
+// Agora.io Configuration
 const APP_ID = "Application Id From Agora.io Console";
 const TOKEN = "Token Generated From Agora.io Console"
 const CHANNEL = "Channel Name For Video Conferencing";
@@ -73,14 +74,10 @@ let toggleMic = async (e) => {
         await localTracks[0].setMuted(false)
         document.getElementById('mic-btn').innerText = 'Mic on'
         document.getElementById('mic-btn').style.backgroundColor='cadetblue'
-        // e.target.innerText = 'Mic on'
-        // e.target.style.backgroundColor = 'cadetblue'
     } else {
         await localTracks[0].setMuted(true)
         document.getElementById('mic-btn').innerText = 'Mic off'
         document.getElementById('mic-btn').style.backgroundColor= '#EE4B2B'
-        // e.target.innerText = 'Mic off'
-        // e.target.style.backgroundColor = '#EE4B2B'
     }
 }
 
@@ -89,15 +86,11 @@ let toggleCamera = async (e) =>{
         await localTracks[1].setMuted(false)
         console.log("camera is On")
         document.getElementById('camera-btn').innerText = 'Camera on'
-        // e.target.innerText = 'Camera on'
         document.getElementById('camera-btn').style.backgroundColor='cadetblue'
-        // e.target.style.backgroundColor = 'cadetblue'
     }else{
         await localTracks[1].setMuted(true)
         console.log("camera is Off")
         document.getElementById('camera-btn').innerText =  'Camera off'
         document.getElementById('camera-btn').style.backgroundColor= '#EE4B2B'
-        // e.target.innerText = 'Camera off'
-        // e.target.style.backgroundColor = '#EE4B2B'
     }
 }
