@@ -33,7 +33,6 @@ The Business Suite project has been a challenging and rewarding experience for m
 
 ### Mail For Forgot Password
 
-<img src="https://github.com/sgadave/BusinessSuiteProject/blob/main/Documentation/Images/Application%20ScreenShots/6.png"></img>
 
 ### Admin's Analytics Page
 
